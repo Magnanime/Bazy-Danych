@@ -1,0 +1,144 @@
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+body 
+{
+	background-color: #fff ;
+	margin: 0 !important;
+	font-size: 14px;
+	color: #000;
+	font-family: 'Trebuchet MS';
+	line-height:1.5;
+	font-weight:400;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	background-color: #ccc;
+	height: 55px;
+	z-index: 10;
+	font-size: 1.3em;
+	margin-bottom: 25px;
+}
+
+header .menu {
+	float:left;
+	text-align: center;
+	width: 14.28%;
+	padding: 10px 0 10px 0;
+	height: 35px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+header .menu:hover {
+	background-color: #006C00;
+	color: #fff;
+}
+
+
+.piece {
+	margin: 25px 50px;
+	float: left;
+	text-align: center;
+}
+
+.tabela {
+	min-width: 100px;
+	min-height: 25px;
+	margin: auto;
+	text-align: center;
+}
+
+.tabela .row {
+	min-height: 25px;
+	text-align: center;
+}
+
+.tabela .row .colk {
+	border: 1px solid black;
+	width: 75px;
+	min-height: 25px;
+	float: left;
+}
+
+.tabela .row .cols {
+	border: 1px solid black;
+	width: 150px;
+	min-height: 25px;
+	float: left;
+}
+
+.tabela .row .cold {
+	border: 1px solid black;
+	width: 300px;
+	min-height: 25px;
+	float: left;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+select,
+textarea
+{
+	width: 50%;
+	background-color: #efefef;
+	color: #666666;
+	border: 2px solid #dddddd;
+	border-radius: 5px;
+	font-size: 14px;
+	padding: 2px;
+	box-sizing: border-box;
+	outline: none;
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+select:focus,
+textarea:focus;
+{
+	-webkit-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 10px 2px rgba(204,204,204,0.9);
+	border: 2px solid #a5cda5;
+	background-color: #e9f3e9;
+	color: #428c42;
+}
+
+input[type=submit]
+{
+	width: 100%;
+	background-color: #36b03c;
+	font-size: 20px;
+	color: white;
+	padding: 15px 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	outline: none;
+	margin-top: 30px;
+}
+
+input[type=submit]:focus
+{
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);
+	box-shadow: 0px 0px 15px 5px rgba(204,204,204,0.9);	
+}
+
+.namek {
+	width: 125px;
+	float:left;
+}
+
